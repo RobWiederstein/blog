@@ -8,7 +8,7 @@ January 22, 2017 | [Hospital CEO Pay in the Tri-State](http://robwiederstein.org
 January 15, 2017 | [Could Methodist be a Low-Volume Hospital?](http://robwiederstein.org/government/healthcare/2017/01/15/low-volume-hospitals.html) | `hosp_low_vol`
 January 8, 2017 | [Methodist Hospital's Revolving Door](http://robwiederstein.org/government/healthcare/2017/01/08/readmissions-revisited.html) | `readmissions_01`
 January 1, 2017 | [Methodist Hospital: Phoenix Rising or Dead Cat Bouncing?](http://robwiederstein.org/government/healthcare/2017/01/01/methodist-utilization.html) | `hosp_util`
-December 26, 2016 | [Comparing Rand Paul's Victory to Donald Trump's] (http://robwiederstein.org/government/politics/2016/12/26/trump-model-to-paul.html) | `trump_ky`
+December 26, 2016 | [Comparing Rand Paul's Victory to Donald Trump's](http://robwiederstein.org/government/politics/2016/12/26/trump-model-to-paul.html) | `trump_ky`
 December 19, 2016 | [A Trump Model That's Definitely Worth a Look](http://robwiederstein.org/government/politics/2016/12/19/modeling-trump-election.html) | `trump_ky`
 December 4, 2016 | [The War on Coal and Its Impact on the 2016 Presidential Race in Kentucky](http://robwiederstein.org/government/politics/2016/12/04/war-on-coal.html) | `trump_ky`
 November 29, 2016 | [The Kentucky Trump-nami of 2016](http://robwiederstein.org/government/politics/2016/11/29/trumps-kentucky-tsunami.html) | `trump_ky`
