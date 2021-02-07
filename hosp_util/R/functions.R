@@ -22,9 +22,9 @@ plot_ky_tot_licensed_beds <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Tot. Licensed Beds"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("beds")
         p
@@ -39,9 +39,9 @@ plot_ky_beds_in_operation <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Beds in Operation"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("beds")
         p
@@ -56,9 +56,9 @@ plot_ky_hosp_admissions <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Admissions"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("admissions")
         p
@@ -73,9 +73,9 @@ plot_ky_hosp_inpatient_days <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Inpatient Days"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("days")
         p
@@ -90,9 +90,9 @@ plot_ky_hosp_discharges <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Discharges"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("discharges")
         p
@@ -108,9 +108,9 @@ plot_ky_hosp_discharge_days <- function(){
         p <- ggplot(a, aes(x = year, y = sum))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Discharge Days"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("days")
         p
@@ -126,9 +126,9 @@ plot_ky_hosp_avg_daily_census <- function(){
         p <- ggplot(a, aes(x = year, y = median))
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Avg. Daily Census"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("patients")
         p
@@ -144,9 +144,9 @@ plot_ky_hosp_avg_length_of_stay <- function(){
         p <- ggplot(a, aes(x = year, y = median)) #median
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Avg. Length of Stay"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("days")
         p
@@ -162,9 +162,9 @@ plot_ky_hosp_occupancy_pct <- function(){
         p <- ggplot(a, aes(x = year, y = median)) #median
         p <- p + geom_line()
         p <- p + ggtitle(paste("Kentucky Hospitals Occupancy Percent"))
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("pct")
         p
@@ -186,9 +186,9 @@ plot_methodist_tot_licensed_beds <- function(){
         p <- p + geom_line()
         p <- p + ylab("beds")
         p <- p + ggtitle("Methodist Hospital Tot. Licensed Beds")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Tot_Licensed_Beds.pdf", width = 8, height = 5,
@@ -206,9 +206,9 @@ plot_methodist_beds_in_operation <- function(){
         p <- p + geom_line()
         p <- p + ylab("beds")
         p <- p + ggtitle("Methodist Hospital Beds in Operation")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Beds_in_Operation.pdf", width = 8, height = 5,
@@ -226,9 +226,9 @@ plot_methodist_admissions <- function(){
         p <- p + geom_line()
         p <- p + ylab("admissions")
         p <- p + ggtitle("Methodist Hospital Admissions")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Admissions.pdf", width = 8, height = 5,
@@ -246,9 +246,9 @@ plot_methodist_inpatient_days <- function(){
         p <- p + geom_line()
         p <- p + ylab("days")
         p <- p + ggtitle("Methodist Hospital Inpatient Days")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("days")
         p
@@ -267,9 +267,9 @@ plot_methodist_discharges <- function(){
         p <- p + geom_line()
         p <- p + ylab("discharges")
         p <- p + ggtitle("Methodist Hospital Discharges")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("discharges")
         p
@@ -288,9 +288,9 @@ plot_methodist_discharge_days <- function(){
         p <- p + geom_line()
         p <- p + ylab("days")
         p <- p + ggtitle("Methodist Hospital Discharge Days")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p <- p + ylab("days")
         p
@@ -309,9 +309,9 @@ plot_methodist_avg_daily_census <- function(){
         p <- p + geom_line()
         p <- p + ylab("patients")
         p <- p + ggtitle("Methodist Hospital \n Average Daily Census")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Avg_Daily_Census.pdf", width = 8, height = 5,
@@ -329,9 +329,9 @@ plot_methodist_avg_length_of_stay <- function(){
         p <- p + geom_line()
         p <- p + ylab("days")
         p <- p + ggtitle("Methodist Hospital \n Avg. Length of Stay")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Avg_Length_of_Stay.pdf", width = 8, height = 5,
@@ -349,9 +349,9 @@ plot_methodist_occupancy_pct <- function(){
         p <- p + geom_line()
         p <- p + ylab("percent")
         p <- p + ggtitle("Methodist Hospital \n Occupancy Percent")
-        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015),
-                                    minor_breaks = 2000:2015,
-                                    limits = c(2000, 2015)
+        p <- p + scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020),
+                                    minor_breaks = 2000:2020,
+                                    limits = c(2000, 2020)
         )
         p
         ggsave("./charts/Methodist_Occupancy_Percent.pdf", width = 8, height = 5,
